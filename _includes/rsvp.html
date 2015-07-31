@@ -1,0 +1,74 @@
+<!-- Start RSVP -->
+<div id="rsvp" class="page">
+  
+  <div class="heading">
+    <h3>RSVP</h3>
+    <div class="section_icon">
+      <span class="icon">&#128214;</span>
+    </div>
+  </div>
+  
+  <div class="content">
+    <p>Please submit your response by <span class="bold">February 2nd 2013</span>. Invite code found at the bottom of your invitation</p>   
+  </div>
+  
+  <!-- Start RSVP Contact -->
+  <div class="form">
+    
+      <div class="validation">
+        <p>Oops! Please correct the highlighted fields...</p>
+      </div>
+
+      <div class="success">
+        <p>Thanks for your response!</p>
+      </div>
+      
+      <form action="javascript:;" method="post" id="rsvp_form">
+        <div class="row">
+          <p>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" />
+          </p>
+          <p>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" />
+          </p>
+        </div>
+        
+        <div class="row">
+          <p>
+            <label for="rsvp_email">Email</label>
+            <input type="text" name="rsvp_email" id="rsvp_email" />
+          </p>
+          <p>
+            <label for="invite_code">Invite Code</label>
+            <input type="text" name="invite_code" id="invite_code" />
+          </p>
+        </div>
+      
+        <div class="row">
+          <p>
+            <select name="attending" id="attending">
+              <option value="">Will You Be Attending?</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </p>
+          
+          <p>
+            <select name="meal_choice" id="meal_choice">
+              <option value="">Meal Choice</option>
+              <option value="lobster">Lobster</option>
+              <option value="steak">Steak</option>
+              <option value="vegan">Vegan</option>
+            </select>
+          </p>
+        </div>
+        
+        <input type="submit" class="button" value="RSVP" />
+      </form>
+    
+  </div>
+  
+</div>
+<!-- End RSVP -->

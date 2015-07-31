@@ -1,0 +1,56 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Brian &amp; Lilian's Wedding</title>
+  
+  <meta charset="utf-8" />
+  <!-- <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,900,100italic,300italic,400italic,700italic,900italic,700,300,100|Sanchez:400,400italic|Sail|Fjalla+One&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  
+  {% include styles.html %}
+  {% include scripts.html %}
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="images/favicon.html" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.html">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.html">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.html">
+  
+</head>
+<body>
+<div id="page_wrapper"> 
+  {% include header.html %}
+  
+  {% include intro.html %}
+  
+  <!-- Start Pages Container -->
+  <section id="pages" class="container">
+    
+    <!-- story -->
+    {% include story.html %}
+    <!-- gallery -->
+    {% include gallery.html %}
+    <!-- party -->
+    {% include party.html %}
+    <!-- venue -->
+    {% include venue.html %}
+    <!-- travel -->
+    {% include travel.html %}
+    <!-- registry -->
+    {% include registry.html %}
+    <!-- rsvp -->
+    {% include rsvp.html %}
+    {% include contact.html %}
+    
+  </section>
+  <!-- End Pages Container -->
+
+  {% include footer.html %}
+</div>
+</body>
+
+</html>
